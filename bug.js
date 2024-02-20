@@ -9,3 +9,15 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "MyClicks.html";
     });
 });
+// Add event listener for DOMContentLoaded event
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    var button = document.getElementById("aboutme");
+
+    // Add event listener for button click
+    button.addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "aboutme.html";
+    });
+});
+
